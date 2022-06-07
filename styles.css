@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    --primary-color: #2b7a78;
+    --secondary-color: #def2f1;
+    --light-primary: hsl(177, 43%, 71%);
+    --dark-primary: hsl(178, 48%, 22%);
+    --almost-white: #feffff;
+    --second-bg-color: hsl(177, 43%, 95%);
+}
+
+.navbarLine1 {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoCont {
+    display: flex;
+    align-items: center;
+}
+
+.logoCont  .logoIcon {
+    font-size: 60px;
+}
+.logoCont .comName {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbarLine1 button {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .4s;
+}
+.navbarLine1 button:hover {
+    background-color: hsl(0, 0%, 800%);
+    box-shadow: 0 5px 15px black;
+}
+
+.logoCont span {
+    margin: 10px;
+}
+
+.callNow {
+    font-weight: 400;
+}
+.phoneNum {
+    font-weight: 800;
+}
+
+.content {
+    background-color: var(--almost-white);
+}
+
+.hero {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hero div {
+    margin: 15px;
+}
+.ctaCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ctaCont h1{
+    font-weight: 500;
+}
+.ctaCont button {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    transition: .3s;
+}
+.ctaCont button:hover {
+    background-color: var(--light-primary);
+}
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid var(--primary-color);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid var(--primary-color); }
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: var(--primary-color);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: var(--dark-primary); }
+.formTitle {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.zone1 {
+    padding: 50px 15px;
+    background-color: var(--second-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.zone1 div, .zone2 div {
+    max-width: 750px;
+}
+.zone1 div h3, .zone2 div h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.zone1 div p, .zone2 div p {
+    font-size: 16px;
+}
+.zone2 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.cardCont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    max-width: none !important;
+} 
+
+.infoCard {
+    margin: 15px;
+    max-width: 300px !important;
+
+}
+.infoCard h3 {
+    font-size: 18px !important;
+}
+.infoCard span {
+    margin-bottom: 10px;
+    font-size: 50px !important;
+}
+.stepTitle {
+    font-weight: 500;
+}
+
+footer {
+    background-color: var(--primary-color);
+    min-height: 40px;
+}
