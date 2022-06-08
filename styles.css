@@ -72,6 +72,7 @@
     padding-top: 0px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     background: url("assets/stockHouse.jpg");
     background-size: cover;
@@ -96,6 +97,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: hsla(0, 0%, 100%, 60%);
+    padding: 15px;
+    border-radius: 15px;
+    height: auto;
 }
 .ctaCont h1{
     font-weight: 700;
