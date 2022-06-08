@@ -185,9 +185,9 @@ form { max-width:420px; margin:50px auto; }
 .infoCard h3 {
     font-size: 18px !important;
 }
-.infoCard span {
+.infoCard img {
     margin-bottom: 10px;
-    font-size: 50px !important;
+    width: 50px !important;
 }
 .stepTitle {
     font-weight: 500;
