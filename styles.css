@@ -69,12 +69,27 @@
 
 .hero {
     padding: 20px;
+    padding-top: 0px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: url("assets/stockHouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 0;
+}
+.filter {
+    background-color: hsla(0, 0%, 100%, 40%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 .hero div {
     margin: 15px;
+
 }
 .ctaCont {
     display: flex;
@@ -99,7 +114,13 @@
 .ctaCont button:hover {
     background-color: var(--cta-dark);
 }
-form { max-width:420px; margin:50px auto; }
+
+.formCont {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+form { max-width:420px; margin:auto; }
 
 .feedback-input {
   font-family: Helvetica, Arial, sans-serif;
@@ -138,6 +159,7 @@ form { max-width:420px; margin:50px auto; }
 .formTitle {
     font-weight: 600;
     font-size: 22px;
+    margin: 0;
 }
 
 .zone1 {
