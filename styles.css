@@ -5,10 +5,10 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    --primary-color: #2b7a78;
-    --secondary-color: #def2f1;
-    --light-primary: hsl(177, 43%, 71%);
-    --dark-primary: hsl(178, 48%, 22%);
+    --primary-color: hsl(233, 79%, 34%);
+    --secondary-color: #deedf2;
+    --light-primary: hsl(233, 79%, 64%);
+    --dark-primary: hsl(233, 79%, 20%);
     --almost-white: #feffff;
     --second-bg-color: hsl(177, 43%, 95%);
 }
